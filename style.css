@@ -1,96 +1,82 @@
-*{
+* {
     margin: 0;
     padding: 0;
-
 }
 
-h2{
-   display: inline-flex;
-   margin-top: 2%;
-   margin-left: 6%;
-    font-size: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.nav{
-    display:inline-flex;
+.container {
+    display: inline-flex;
+    padding: 3%;
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-ul,li{
+
+ul,
+li {
     display: inline-flex;
-  margin-left: 11%;
-    
+    margin-left: 2%;
 }
 
-h1{
-    background-color: violet;
-    width: max-content;
-   margin-left: 4%;
-   display: inline-block;
-    font-size: large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 5px;
-    color:whitesmoke;
-
-}
-h5{
-    background-color: violet;
-    width: max-content;
-    margin-left: 200%;
-   display: inline-flex;
-    font-size: large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 5px;
-    color: white;
-
-}
-h4{
-     background-color:rgb(241, 211, 241);
-    margin-top: 5%;
-   display: inline-block;
-    font-size: large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 5px;
+li:hover {
     color: violet;
-
-
 }
-li:hover{
-    color:violet;
-}
-.box1{
-    
+
+.box1 {
+    margin-top: 4%;
     margin-left: 3%;
-    display:inline-block;
-    width:300px;
-    
-    
-}
-.box2{
     display: inline-block;
-    margin-left: 30%;
-    
-    
+    width: 520px;
 }
 
-button{
-    background-color: violet;
-    height: 40px;;
-   width: 100px;
-   border-color: violet;
+.box2 {
+    display: inline-block;
+    margin-left: 5.9%;
 }
 
+.item-1 {
+    display: inline-flex;
+    align-items: center;
+    font-size: 25px;
+    width: 280px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-.products{
+.item-2 {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 450px;
+}
+
+.item-3 {
+    display: inline-flex;
+    width: 500px;
+}
+
+button {
+    background-color: rgb(205, 89, 205);
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-color: rgb(205, 89, 205);
+}
+
+.products {
     margin-left: 4%;
-    margin-top: 7%;
-    text-align: left;}
-    h2{
-        font-size: xx-large;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    main{
-        font-size: medium;
-        font-family:'Courier New', Courier, monospace 
-    }
+    margin-top: 2%;
+}
+
+h2 {
+    text-align: left;
+    width: 300px;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    text-align: justify;
+    margin-top: 5%;
+    height: 80px;
+    width: 520px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace
+}
